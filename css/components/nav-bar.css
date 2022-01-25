@@ -16,23 +16,13 @@
   position: relative;
 }
 .nav__notification {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: tomato;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  color: white;
-  font-weight: 600;
   position: absolute;
   left: 20px;
   bottom: 15px;
-  font-size: 14px;
 }
 .nav__notification--small {
-  width: 6px;
-  height: 6px;
+  width: 6px !important;
+  height: 6px !important;
   left: 33px;
   bottom: 27px;
 }
