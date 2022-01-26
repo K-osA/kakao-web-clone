@@ -20,9 +20,14 @@
   left: 20px;
   bottom: 15px;
 }
+.nav__notification-cog--small,
 .nav__notification--small {
   width: 6px !important;
   height: 6px !important;
   left: 33px;
   bottom: 27px;
+}
+.nav__notification-cog--small {
+  left: -2px;
+  bottom: 20px;
 }
