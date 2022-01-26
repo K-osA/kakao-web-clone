@@ -1,0 +1,36 @@
+#no-mobile {
+  display: flex;
+  top: 0;
+  position: absolute;
+  z-index: 98;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 500;
+}
+#no-portrait {
+  display: flex;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 500;
+  position: absolute;
+  top: 0;
+}
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}
+@media screen and (orientation: portrait) {
+  #no-portrait {
+    display: none;
+  }
+}
