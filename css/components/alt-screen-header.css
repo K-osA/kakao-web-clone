@@ -15,3 +15,11 @@
 .alt-header__column:last-child {
   margin-left: auto;
 }
+.alt-header__column span:nth-child(2) {
+  margin-left: 35px;
+}
+.alt-header__column--chat {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
