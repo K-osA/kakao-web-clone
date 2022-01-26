@@ -3,8 +3,8 @@
   top: 0;
   position: absolute;
   z-index: 98;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: var(--yellow);
   justify-content: center;
   align-items: center;
@@ -14,8 +14,8 @@
 #no-portrait {
   display: flex;
   z-index: 99;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: var(--yellow);
   justify-content: center;
   align-items: center;
